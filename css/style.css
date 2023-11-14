@@ -25,7 +25,15 @@ hr {
 
 
 #curvename {
-	margin-top: -50px
+	margin-top: -45px
+}
+
+.textbox {
+	background-color:#457b9d ;
+}
+
+.list-group-item {
+
 }
 
 .navbuttonborder {
