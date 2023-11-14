@@ -1,6 +1,4 @@
-import requests
+url = input()
+page = requests.get(url)
 
-url = "https://www.goodreads.com/review/list_rss/171499739?key=Q2SS70nHhSbpMIZdEDFXpoVzWuLSbnDn5-dyYwjGS1OO6Yzp&shelf=%23ALL%23"
-pade = requests.get(url)
-
-print(page.text)
+print(url)

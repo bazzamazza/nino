@@ -23,6 +23,21 @@ hr {
 	background: linear-gradient(to right, transparent, #457b9d,transparent);
 }
 
+@media screen and (max-width: 576px) {
+  #curvename {
+    display: none;
+  }
+  #straightname {
+  	display: block;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #straightname {
+  	display: none;
+  }
+}
+
 
 #curvename {
 	margin-top: -45px
