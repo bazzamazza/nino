@@ -3,8 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Main</title>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+	<title>BookClub</title>
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +30,7 @@
           <a class="nav-link material-symbols-outlined text-center homebutton" aria-current="page" href="https://harrystenholm.github.io/main/">
             Home
           </a>
-          <a class="nav-link active text-center homebutton" aria-current="page" href="https://harrystenholm.github.io/main/">
+          <a class="nav-link text-center homebutton" aria-current="page" href="https://harrystenholm.github.io/main/">
             Home
           </a>
         </li>
@@ -47,7 +46,7 @@
           <a id= "buttonbook" class="nav-link material-symbols-outlined text-center text-center homebutton" href="">
             auto_stories
           </a>
-          <a class="nav-link text-center homebutton" aria-current="page" href="">Book Club</a>
+          <a class="nav-link text-center homebutton active" aria-current="page" href="">Book Club</a>
         </li>
 
         <li class="nav-item">
@@ -85,27 +84,40 @@
 
 <br>
 
-<div id = "introbody" class="text-center">
-  <img  src="images/portrait.jpeg" width="200" height="200" style = "border-radius: 50%; border: 1px solid #000000;">
-  <br>
-  <h1 id="curvename">Harry Stenholm</h1>
-  <br>
-  <h3>
-    Marine Biologist Specialising in Data Science
-  </h3>
+<div class="container-fluid">
+  <h1 class="text-center">BOOK CLUB</h1>
   <hr>
-  <div class="container-fluid">
-    <div id="" class="row">
-      <div class="col">under</div>
-      <div class="col">construction</div>
+  <div class="row text-center">
+    <div class="col">
+      <h3>Now Reading</h3>
+      <hr>
     </div>
+    <div class="col">
+      <h3>Now Listening</h3>
+      <hr>
+    </div>
+  </div>  
+    
+  <div class="row">
+
+    <div class="col-6 card mx-auto card-style" style="width: 45%; border-radius: 15px;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="col-6 card mx-auto card-style" style="width: 45%; border-radius: 15px;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
   </div>
 </div>
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<script src="js/animation.js"></script>
-<script src="js/circletype.min.js"></script>
-
-</body>
-</html>

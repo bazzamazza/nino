@@ -15,26 +15,17 @@ nav {
 	color: #1d3557;
 }
 
-#curvename {
-	margin-top: -50px
-}
-
-.textbox {
-	background-color: #457b9d;
-}
-
-#introbox {
-	border-top: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,0,0,0)), color-stop(15%,rgba(255,0,0,0)), color-stop(50%,rgba(255,0,0,0.65)), color-stop(85%,rgba(255,0,0,0)), color-stop(100%,rgba(255,0,0,0))); /* Chrome,Safari4+ */;
-	border-bottom: 0.5px solid #457b9d;
-	box-shadow: 0 30px 40px rgba(0,0,0,.1);
-}
-
 hr {
     border: 0;
     height: 2px;
     margin:18px 0;
     position:relative;
 	background: linear-gradient(to right, transparent, #457b9d,transparent);
+}
+
+
+#curvename {
+	margin-top: -50px
 }
 
 .navbuttonborder {
@@ -81,14 +72,20 @@ hr {
 	border-color:  #001219;
 }
 
+.card-body * {
+	color: #ffffff;
+}
+
 .card-style  {
-	padding: 0px;
+	background-color: #457b9d;
+	color: #ffffff;
+	border-color: #a8dadc;
 }
 
 .card-style * {
 	background-color: #457b9d;
 	color: #ffffff;
-	border-color: #f4a261
+	border-color: #a8dadc
 
 }
 

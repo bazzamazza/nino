@@ -2,7 +2,6 @@ function getRndInteger(min, max) {
       return Math.floor(Math.random() * (max - min) ) + min;
     }
 
-
 function piss(stink) {
   var x = document.getElementById(stink);
   if (x.style.display == "none") {
